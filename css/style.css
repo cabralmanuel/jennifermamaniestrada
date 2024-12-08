@@ -524,17 +524,7 @@ footer a img{
     }
 }
 
-/*! BOOTSTRAP TURNOS*/
-
-.btn-primary{
-    background-color: skyblue;
-    border: none;
-    color: white;
-    font-weight: 700;
-    margin-left: 15%;
-}
-
-/*! PERFIL*/
+/*! BOOTSTRAP PERFIL*/
 
 .perfil-jenni{
     background-image: url("../img/img-fondo-bluesnow.webp");
@@ -580,8 +570,7 @@ footer a img{
     margin-top: 21%;
 }
 
-
-/*! TURNOS*/
+/*! BOOTSTRAP TURNOS*/
 
 .turnos{
     background-image: url("../img/img-fondo-bluesnow.webp");
@@ -603,8 +592,15 @@ footer a img{
 .turnos-form{
     align-content: center;
 }
+.btn-primary{
+    background-color: skyblue;
+    border: none;
+    color: white;
+    font-weight: 700;
+    margin-left: 15%;
+}
 
-/*! PREGUNTAS FRECUENTES*/
+/*! BOOTSTRAP PREGUNTAS FRECUENTES*/
 
 .preguntas-frecuentes{
     background-image: url("../img/img-fondo-bluesnow.webp");
@@ -617,7 +613,7 @@ footer a img{
     padding: 15px;
 }
 
-/*! CONTACTO*/
+/*! BOOTSTRAP CONTACTO*/
 
 .contacto{
     background-image: url("../img/img-fondo-bluesnow.webp");
