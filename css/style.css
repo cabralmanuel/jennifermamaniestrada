@@ -397,12 +397,10 @@ footer a img{
 @media screen and (max-width:806px){
     .hero{
         flex-direction: column;
-    }
-    .hero div{
-        width: 140%;
+        width: 100%;
     }
     .hero p{
-        margin-right: 30%;
+        margin-right: 5%;
         font-size: 13px;
     }
     .hero img{
@@ -410,11 +408,11 @@ footer a img{
     }
     .hero h2{
         font-size: 40px;
-        margin-right: 35%;
+        margin-right: 9%;
     }
     .hero a{
         font-size: 10px;
-        margin-right: 27%;
+        margin-right: 5%;
     }
 }
 @media screen and (max-width:806px){
@@ -505,14 +503,18 @@ footer a img{
         height: 50px;
     }
     .grid1 img{
-        margin-left: 70px;
-        margin-top: 70px;
+        margin-left: 25%;
+        margin-top: 27%;
     }
     .grid2 h2{
-        margin-left: 70px;
+        margin-left: 25%;
+        margin-bottom: 15%;
+    }
+    .grid2 img{
+        margin-right: 20%;
     }
     .grid2 p{
-        margin-left: 30px;
+        margin-left: 12%;
     }
     .grid3 ul{
         flex-direction: column;
