@@ -527,20 +527,24 @@ footer a img{
 }
 @media screen and (max-width:1200px){
     .perfil-jenni{
+        display: flex;
         flex-direction: column;
     }
     .perfil-jenni h2{
         font-size: 27px;
+        text-align: center;
+        margin-left: 50%;
     }
     .perfil-jenni div p{
         font-size: 16px;
-        width: 225%;
+        width: 215%;
     }
     .perfil-jenni div img{
-        width: 100px;
+        width: 10px;
+        height: 300px;
+        object-fit: cover;
     }
 }
-
 @media screen and (max-width:500px){
     .turnos h2{
         font-size: 23px;
@@ -573,15 +577,12 @@ footer a img{
     }
 }
 
-
 /*! BOOTSTRAP PERFIL*/
 
 .perfil-jenni{
     background-image: url("../img/img-fondo-bluesnow.webp");
     background-attachment: fixed;
-    display: flex;
     margin: 30px;
-    flex-direction: row;
 }
 .perfil-jenni div{
     width: 50%;
@@ -594,30 +595,23 @@ footer a img{
     font-weight: lighter;
     font-size: 20px;
     word-spacing: 2px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: justify;
     padding: 15px;
     margin-right: 20%;
-    width: 120%;
+    margin-left: 6%;
+    width: 130%;
     border-radius: 20px;
 }
 .perfil-jenni p::first-letter{
     font-size: 50px;
 }
-.perfil-jenni img{
-    width: 634px;
-    border-radius: 20px;
-    padding: 10px;
-}
-.perfil-jenni img{
-    width: 300px;
-    border-radius: 20px;
-    padding: 10px;
-}
 .perfil-jenni div img{
     width: 350px;
-    margin-left: 20%;
-    margin-top: 21%;
+    margin-left: 145%;
+    margin-top: -100%;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 /*! BOOTSTRAP TURNOS*/
