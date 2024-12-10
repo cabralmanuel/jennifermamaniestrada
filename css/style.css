@@ -510,8 +510,8 @@ footer a img{
         margin-left: 25%;
         margin-bottom: 15%;
     }
-    .grid2 img{
-        margin-right: 20%;
+    .grid2 div img{
+        margin-left: -60%;
     }
     .grid2 p{
         margin-left: 12%;
