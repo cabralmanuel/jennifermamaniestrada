@@ -541,6 +541,37 @@ footer a img{
     }
 }
 
+@media screen and (max-width:500px){
+    .turnos h2{
+        font-size: 23px;
+        margin-left: 3%;
+        text-align: center;
+    }
+    .logo-pie{
+        margin-top: 30%;
+    }
+}
+@media screen and (max-width:380px){
+    .preguntas-frecuentes h2{
+        font-size: 23px;
+        margin-left: 22%;
+    }
+}
+@media screen and (max-width:386px){
+    .preguntas-frecuentes-barra{
+        position: static;
+    }
+}
+@media screen and (max-width:386px){
+    .accordion-item h2{
+        margin-left: 6%;
+    }
+}
+@media screen and (max-width:386px){
+    .logo-pie1{
+        margin-top: 30%;
+    }
+}
 
 
 /*! BOOTSTRAP PERFIL*/
