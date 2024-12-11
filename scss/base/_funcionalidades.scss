@@ -6,3 +6,23 @@ $color-4: rgb(8, 158, 218);
 $color-5: rgb(255, 255, 255);
 $color-6: gray;
 $color-7: rgba(0,0,0,0.75);
+
+/*LISTAS*/
+
+$font-size: 13px, 20px, 27px, 80px, 46px, 50px, 16px, 30px;
+
+/* EXTENDS */
+
+%center{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+%boton{
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px;
+    padding: 12px;
+    border-radius: 20px;
+}
