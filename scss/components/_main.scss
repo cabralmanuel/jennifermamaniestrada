@@ -1,0 +1,186 @@
+body{
+    background-color: white;
+    background-image: url("../img/img-fondo.webp");
+}
+body{
+    font-family: 'Raleway';
+}
+h2{
+    color: rgb(8, 158, 218);
+    font-size: 46px;
+    font-weight: normal;
+    border: black 10px;
+    margin: 20px;
+    padding: 20px;
+    background-clip: content-box;
+}
+p{
+    color: black;
+}
+.terapia{
+    background-image: url("../img/img-fondo-bluesnow.webp");
+    background-attachment: fixed;
+    display: flex;
+    margin: 30px;
+    flex-direction: row-reverse;    
+        div{
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+                h2{
+                    color: rgb(8, 158, 218);
+                    font-size: 46px;
+                    font-weight: normal;
+                    border: black 10px;
+                    margin: 20px;
+                    padding: 20px;
+                    background-clip: content-box;
+                }
+                p{
+                    background-color: white;
+                    font-weight: lighter;
+                    font-size: 20px;
+                    word-spacing: 2px;
+                    margin-bottom: 20px;
+                    text-align: justify;
+                    padding: 15px;
+                    margin-right: 20%;
+                    &::first-letter{
+                        font-size: 50px;
+                    }
+                }
+                img{
+                    width: 350px;
+                    margin-left: 20%;
+                    border-radius: 20px;
+                    padding: 10px;
+                }
+        }
+}
+.porque-terapia{
+    background-image: url("../img/img-fondo-bluesnow.webp");
+    background-attachment: fixed;
+    display: flex;
+    margin: 30px;
+    div{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        h3{
+            font-size: 46px;
+            font-weight: normal;
+            color: rgb(8, 158, 218);
+            margin: 15px;
+            text-align: center;
+        }
+        p{
+            background-color: white;
+            font-weight: lighter;
+            font-size: 20px;
+            word-spacing: 2px;
+            margin-bottom: 20px;
+            text-align: justify;
+            padding: 15px;
+            &::first-letter{
+                font-size: 50px;
+            }
+        }
+    }
+    img{
+        width: 634px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+}
+.esperar-terapia{
+    background-image: url("../img/img-fondo-bluesnow.webp");
+    background-attachment: fixed;
+    display: flex;
+    margin: 30px;
+    flex-direction: row-reverse;
+    div{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        h3{
+            font-size: 46px;
+            font-weight: normal;
+            color: rgb(8, 158, 218);
+            margin: 15px;
+            text-align: center;
+        }
+        p{
+            background-color: rgb(255, 255, 255);
+            font-weight: lighter;
+            font-size: 20px;
+            word-spacing: 2px;
+            margin-bottom: 20px;
+            text-align: justify;
+            padding: 15px;
+            &::first-letter{
+                font-size: 50px;
+            }
+        }
+    }
+    img{
+        width: 634px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+}
+.grid-palabras{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    margin: 50px;
+}
+.grid-foto{
+    padding: 5px;
+    justify-self: center;
+}
+.servicios{
+    background-image: url("../img/img-fondo-bluesnow.webp");
+    background-attachment: fixed;
+    padding: 20px;
+    h2{
+        text-align: center;
+    }
+    .servicios-psico{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        div{
+            border: 1px solid gray;
+            width: 350px;
+            height: 400px;
+            text-align: center;
+            margin: 20px;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            h3{
+                color: rgb(8, 158, 218);
+                font: 16px;
+                padding-bottom: 20px;
+                font-weight: 600;
+            }
+            img{
+                width: 340px;
+                padding-bottom: 20px;
+                border-radius: 15px;
+            }
+        }
+    }
+}
+.foto{
+    height: 500px;
+    background-image: url("../img/img-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

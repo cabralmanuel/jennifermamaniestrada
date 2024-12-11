@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-jennifer-mamani-estrada",
+  "version": "1.0.0",
+  "description": "<h1 align=\"left\">Hola 👋 Cómo están?</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

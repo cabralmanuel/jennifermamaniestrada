@@ -1,0 +1,194 @@
+/*! MEDIA QUERIES */
+
+@media screen and (max-width:806px){
+    header{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:806px){
+    .barra ul{
+        flex-direction: column;
+    }
+}    
+@media screen and (max-width:806px){
+    .hero{
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero p{
+        margin-right: 5%;
+        font-size: 13px;
+    }
+    .hero img{
+        width: 500px;
+    }
+    .hero h2{
+        font-size: 40px;
+        margin-right: 9%;
+    }
+    .hero a{
+        font-size: 10px;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width:806px){
+    .terapia{
+        flex-direction: column;
+    }
+    .terapia div h2{
+        font-size: 25px;
+        margin-left: 40%;
+        width: 150%;
+    }
+    .terapia div img{
+        width: 150px;
+        margin-left: 48%;
+    }
+    .terapia div p{
+        font-size: 16px;
+        width: 150%;
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width:806px){
+    .porque-terapia{
+        flex-direction: column;
+        align-items: center;
+    }
+    .porque-terapia img{
+        width: 300px;
+    }
+    .porque-terapia div h3{
+        font-size: 27px;
+        width: 200%;
+        margin-left: -10%;
+    }
+    .porque-terapia p{
+        font-size: 16px;
+        width: 185%;
+    }
+    .porque-terapia div{
+        margin-right: 35%;
+    }
+}
+@media screen and (max-width:806px){
+    .esperar-terapia{
+        flex-direction: column;
+        align-items: center;
+    }
+    .esperar-terapia img{
+        width: 300px;
+    }
+    .esperar-terapia div h3{
+        font-size: 27px;
+        width: 150%;
+    }
+    .esperar-terapia p{
+        font-size: 16px;
+        width: 175%;
+    }
+    .esperar-terapia div{
+        margin-right: 30%;
+    }
+}
+@media screen and (max-width:806px){
+    .grid-foto{
+        display: none;
+    }
+}
+@media screen and (max-width:806px){
+    .servicios-psico div img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:806px){
+    .foto{
+        display: none;
+    }
+}
+@media screen and (max-width:895px){
+    .grid-pie{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-self: center;
+        row-gap: 0px;
+    }
+    footer a img{
+        width: 50px;
+        height: 50px;
+    }
+    .grid1 img{
+        margin-left: 25%;
+        margin-top: 27%;
+    }
+    .grid2 h2{
+        margin-left: 25%;
+        margin-bottom: 15%;
+    }
+    .grid2 img{
+        margin-left: -65%;
+    }
+    .grid2 p{
+        margin-left: 12%;
+    }
+    .grid3 ul{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:404px){
+    iframe{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1200px){
+    .perfil-jenni{
+        display: flex;
+        flex-direction: column;
+    }
+    .perfil-jenni h2{
+        font-size: 27px;
+        text-align: center;
+        margin-left: 50%;
+    }
+    .perfil-jenni div p{
+        font-size: 16px;
+        width: 215%;
+    }
+    .perfil-jenni img{
+        width: 350px;
+        height: 450px;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width:500px){
+    .turnos h2{
+        font-size: 23px;
+        margin-left: 3%;
+        text-align: center;
+    }
+    .logo-pie{
+        margin-top: 30%;
+    }
+}
+@media screen and (max-width:380px){
+    .preguntas-frecuentes h2{
+        font-size: 23px;
+        margin-left: 22%;
+    }
+}
+@media screen and (max-width:386px){
+    .preguntas-frecuentes-barra{
+        position: static;
+    }
+}
+@media screen and (max-width:386px){
+    .accordion-item h2{
+        margin-left: 6%;
+    }
+}
+@media screen and (max-width:386px){
+    .logo-pie1{
+        margin-top: 30%;
+    }
+}

@@ -157,18 +157,11 @@ p{
     color: white;
     margin: 15px;
 }
-.terapia img{
-    width: 300px;
-    border-radius: 20px;
-    padding: 10px;
-}
 .terapia div img{
     width: 350px;
     margin-left: 20%;
-}
-.grid-terapia img{
-    display: grid;
-    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px;
 }
 .porque-terapia{
     background-image: url("../img/img-fondo-bluesnow.webp");
@@ -199,6 +192,7 @@ p{
     font-weight: normal;
     color: rgb(8, 158, 218);
     margin: 15px;
+    text-align: center;
 }
 .porque-terapia img{
     width: 634px;
@@ -235,6 +229,7 @@ p{
     font-weight: normal;
     color: rgb(8, 158, 218);
     margin: 15px;
+    text-align: center;
 }
 .esperar-terapia img{
     width: 634px;
@@ -336,15 +331,13 @@ p{
 }
 .grid2 p{
     font-weight: 500;
+    margin: 20px 7px 10px 7px;
 }
-.grid2 div img{
+.grid2 img{
     width: 23px;
     height: 23px;
     position: absolute;
     left: 7cm;
-}
-footer div p{
-    margin: 20px 7px 10px 7px;
 }
 .grid3 ul li a{
     color:black;
@@ -445,7 +438,7 @@ footer a img{
     .porque-terapia div h3{
         font-size: 27px;
         width: 200%;
-        margin-right: 30%;
+        margin-left: -10%;
     }
     .porque-terapia p{
         font-size: 16px;
@@ -510,8 +503,8 @@ footer a img{
         margin-left: 25%;
         margin-bottom: 15%;
     }
-    .grid2 div img{
-        margin-left: -60%;
+    .grid2 img{
+        margin-left: -65%;
     }
     .grid2 p{
         margin-left: 12%;
@@ -539,9 +532,9 @@ footer a img{
         font-size: 16px;
         width: 215%;
     }
-    .perfil-jenni div img{
-        width: 10px;
-        height: 300px;
+    .perfil-jenni img{
+        width: 350px;
+        height: 450px;
         object-fit: cover;
     }
 }
