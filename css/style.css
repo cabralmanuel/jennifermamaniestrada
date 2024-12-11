@@ -522,6 +522,8 @@ footer a img{
     .perfil-jenni{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        overflow-x: hidden;
     }
     .perfil-jenni h2{
         font-size: 27px;
@@ -537,6 +539,12 @@ footer a img{
         height: 450px;
         object-fit: cover;
     }
+    .grid-pie1{
+        grid-template-rows: 1fr;
+    }
+    .logo-pie2{
+        margin-left: 40%;
+    }
 }
 @media screen and (max-width:500px){
     .turnos h2{
@@ -544,8 +552,11 @@ footer a img{
         margin-left: 3%;
         text-align: center;
     }
-    .logo-pie{
-        margin-top: 30%;
+    .grid-pie2{
+        grid-template-rows: 1fr;
+    }
+    .logo-pie3{
+        margin-left: 30%;
     }
 }
 @media screen and (max-width:380px){
@@ -566,7 +577,10 @@ footer a img{
 }
 @media screen and (max-width:386px){
     .logo-pie1{
-        margin-top: 30%;
+        margin-left: 30%;
+    }
+    .grid-pie3{
+        grid-template-rows: 1fr;
     }
 }
 

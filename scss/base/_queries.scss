@@ -6,7 +6,7 @@
     }
 }
 @media screen and (max-width:806px){
-    .barra ul{
+    header nav ul{
         flex-direction: column;
     }
 }    
@@ -15,16 +15,16 @@
         flex-direction: column;
         width: 100%;
     }
-    .hero p{
-        margin-right: 5%;
-        font-size: 13px;
+    .hero h2{
+        font-size: 40px;
+        margin-right: 9%;
     }
     .hero img{
         width: 500px;
     }
-    .hero h2{
-        font-size: 40px;
-        margin-right: 9%;
+    .hero p{
+        margin-right: 5%;
+        font-size: 13px;
     }
     .hero a{
         font-size: 10px;
@@ -55,20 +55,20 @@
         flex-direction: column;
         align-items: center;
     }
-    .porque-terapia img{
-        width: 300px;
+    .porque-terapia div{
+        margin-right: 35%;
     }
     .porque-terapia div h3{
         font-size: 27px;
         width: 200%;
         margin-left: -10%;
     }
-    .porque-terapia p{
+    .porque-terapia div p{
         font-size: 16px;
         width: 185%;
     }
-    .porque-terapia div{
-        margin-right: 35%;
+    .porque-terapia img{
+        width: 300px;
     }
 }
 @media screen and (max-width:806px){
@@ -76,19 +76,19 @@
         flex-direction: column;
         align-items: center;
     }
-    .esperar-terapia img{
-        width: 300px;
+    .esperar-terapia div{
+        margin-right: 30%;
     }
     .esperar-terapia div h3{
         font-size: 27px;
         width: 150%;
     }
-    .esperar-terapia p{
+    .esperar-terapia div p{
         font-size: 16px;
         width: 175%;
     }
-    .esperar-terapia div{
-        margin-right: 30%;
+    .esperar-terapia img{
+        width: 300px;
     }
 }
 @media screen and (max-width:806px){
@@ -97,7 +97,7 @@
     }
 }
 @media screen and (max-width:806px){
-    .servicios-psico div img{
+    .servicios .servicios-psico div img{
         width: 100%;
     }
 }
@@ -114,30 +114,30 @@
         justify-self: center;
         row-gap: 0px;
     }
-    footer a img{
+    .grid-pie a img{
         width: 50px;
         height: 50px;
     }
-    .grid1 img{
+    .grid-pie .grid1 img{
         margin-left: 25%;
         margin-top: 27%;
     }
-    .grid2 h2{
+    .grid-pie .grid2 h2{
         margin-left: 25%;
         margin-bottom: 15%;
     }
-    .grid2 img{
-        margin-left: -65%;
-    }
-    .grid2 p{
+    .grid-pie .grid2 p{
         margin-left: 12%;
     }
-    .grid3 ul{
+    .grid-pie .grid2 img{
+        margin-left: -65%;
+    }
+    .grid-pie .grid3 nav ul{
         flex-direction: column;
     }
 }
 @media screen and (max-width:404px){
-    iframe{
+    .grid-pie .grid4 iframe{
         width: 90%;
     }
 }
@@ -145,8 +145,10 @@
     .perfil-jenni{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        overflow-x: hidden;
     }
-    .perfil-jenni h2{
+    .perfil-jenni div h2{
         font-size: 27px;
         text-align: center;
         margin-left: 50%;
@@ -155,31 +157,40 @@
         font-size: 16px;
         width: 215%;
     }
-    .perfil-jenni img{
+    .perfil-jenni div img{
         width: 350px;
         height: 450px;
         object-fit: cover;
     }
+    .grid-pie1{
+        grid-template-rows: 1fr;
+    }
+    .grid-pie1 .logo-pie2{
+        margin-left: 40%;
+    }
 }
 @media screen and (max-width:500px){
-    .turnos h2{
+    .turnos div h2{
         font-size: 23px;
         margin-left: 3%;
         text-align: center;
     }
-    .logo-pie{
-        margin-top: 30%;
+    .grid-pie2{
+        grid-template-rows: 1fr;
     }
-}
-@media screen and (max-width:380px){
-    .preguntas-frecuentes h2{
-        font-size: 23px;
-        margin-left: 22%;
+    .grid-pie2 .logo-pie3{
+        margin-left: 30%;
     }
 }
 @media screen and (max-width:386px){
     .preguntas-frecuentes-barra{
         position: static;
+    }
+}
+@media screen and (max-width:380px){
+    .preguntas-frecuentes div h2{
+        font-size: 23px;
+        margin-left: 22%;
     }
 }
 @media screen and (max-width:386px){
@@ -188,7 +199,10 @@
     }
 }
 @media screen and (max-width:386px){
-    .logo-pie1{
-        margin-top: 30%;
+    .grid-pie3{
+        grid-template-rows: 1fr;
+    }
+    .grid-pie3 .logo-pie1{
+        margin-left: 30%;
     }
 }
