@@ -1,21 +1,21 @@
 body{
-    background-color: white;
+    background-color: $color-3;
     background-image: url("../img/img-fondo.webp");
 }
 body{
     font-family: 'Raleway';
 }
 h2{
-    color: rgb(8, 158, 218);
+    color: $color-4;
     font-size: 46px;
     font-weight: normal;
-    border: black 10px;
+    border: $color-1 10px;
     margin: 20px;
     padding: 20px;
     background-clip: content-box;
 }
 p{
-    color: black;
+    color: $color-1;
 }
 .terapia{
     background-image: url("../img/img-fondo-bluesnow.webp");
@@ -29,16 +29,16 @@ p{
             align-items: center;
             padding: 15px;
                 h2{
-                    color: rgb(8, 158, 218);
+                    color: $color-4;
                     font-size: 46px;
                     font-weight: normal;
-                    border: black 10px;
+                    border: $color-1 10px;
                     margin: 20px;
                     padding: 20px;
                     background-clip: content-box;
                 }
                 p{
-                    background-color: white;
+                    background-color: $color-3;
                     font-weight: lighter;
                     font-size: 20px;
                     word-spacing: 2px;
@@ -71,12 +71,12 @@ p{
         h3{
             font-size: 46px;
             font-weight: normal;
-            color: rgb(8, 158, 218);
+            color: $color-4;
             margin: 15px;
             text-align: center;
         }
         p{
-            background-color: white;
+            background-color: $color-3;
             font-weight: lighter;
             font-size: 20px;
             word-spacing: 2px;
@@ -108,12 +108,12 @@ p{
         h3{
             font-size: 46px;
             font-weight: normal;
-            color: rgb(8, 158, 218);
+            color: $color-4;
             margin: 15px;
             text-align: center;
         }
         p{
-            background-color: rgb(255, 255, 255);
+            background-color: $color-5;
             font-weight: lighter;
             font-size: 20px;
             word-spacing: 2px;
@@ -154,16 +154,16 @@ p{
         align-items: center;
         flex-wrap: wrap;
         div{
-            border: 1px solid gray;
+            border: 1px solid $color-6;
             width: 350px;
             height: 400px;
             text-align: center;
             margin: 20px;
-            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 5px 0px $color-7;
+        -webkit-box-shadow: 10px 10px 5px 0px $color-7;
+        -moz-box-shadow: 10px 10px 5px 0px $color-7;
             h3{
-                color: rgb(8, 158, 218);
+                color: $color-4;
                 font: 16px;
                 padding-bottom: 20px;
                 font-weight: 600;
