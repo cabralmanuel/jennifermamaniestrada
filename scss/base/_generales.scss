@@ -9,13 +9,17 @@
     box-sizing: border-box;
 }
 .boton{
-    background-color: $color-2;
-    color: $color-3;
-    @extend %boton;
+    background-color: skyblue;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border: 2px;
+    padding: 12px;
+    border-radius: 20px;
     transition-property: all;
     transition-duration: 1s;
     &:hover{
-        background-color: $color-3;
-        color: $color-2;
+        background-color: white;
+        color: skyblue;
     }
 }
