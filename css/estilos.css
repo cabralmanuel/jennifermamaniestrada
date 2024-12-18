@@ -1,17 +1,405 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 7 | @import "./perfil";
- *   |         ^^^^^^^^^^
- *   '
- *   scss\estilos.scss 7:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 7 \2502  @import \"./perfil\";\a   \2502          ^^^^^^^^^^\a   \2575 \a   scss\\estilos.scss 7:9  root stylesheet";
+/*VARIABLES*/
+/*LISTAS*/
+/* EXTENDS */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitter:ital,wght@0,100..900;1,100..900&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: white;
+  background-image: url("../img/img-fondo.webp");
+}
+
+body {
+  font-family: "Raleway";
+}
+
+h2 {
+  color: rgb(8, 158, 218);
+  font-size: 46px;
+  font-weight: normal;
+  border: black 10px;
+  margin: 20px;
+  padding: 20px;
+  background-clip: content-box;
+}
+
+p {
+  color: black;
+}
+
+.boton {
+  background-color: skyblue;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px;
+  padding: 12px;
+  border-radius: 20px;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.boton:hover {
+  background-color: white;
+  color: skyblue;
+}
+
+header {
+  background-color: white;
+  background-image: url("../img/img-fondo.webp");
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+header img {
+  width: 170px;
+  height: 170px;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  margin: 5px 7px 10px 7px;
+}
+header nav ul li a {
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: skyblue;
+}
+
+.barra ul li a {
+  color: black;
+  letter-spacing: 0, 5cm;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.hero {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/img-presentacion.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hero div {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero div h1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.164);
+  font-family: cursive;
+  font-family: "Bitter", serif;
+  font-weight: 350;
+  font-size: 80px;
+  border-radius: 50px;
+  padding: 1%;
+}
+.hero div .boton-a {
+  background-color: skyblue;
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  margin-top: 9%;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.hero div .boton-a:hover {
+  background-color: white;
+  color: skyblue;
+}
+.hero div p {
+  background-color: white;
+  color: black;
+  font-size: 27px;
+  font-family: impact, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 6%;
+  border-radius: 50px;
+  padding: 8px;
+}
+
+.terapia {
+  background-image: url("../img/img-fondo-bluesnow.webp");
+  background-attachment: fixed;
+  display: flex;
+  margin: 30px;
+  flex-direction: row-reverse;
+}
+.terapia div {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.terapia div h2 {
+  font-size: 46px;
+  font-weight: normal;
+  color: rgb(8, 158, 218);
+  margin: 15px;
+}
+.terapia div p {
+  background-color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 15px;
+  margin-right: 20%;
+}
+.terapia div p::first-letter {
+  font-size: 50px;
+}
+.terapia div {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.terapia div img {
+  width: 315px;
+  height: 450px;
+  margin-left: 20%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.porque-terapia {
+  background-image: url("../img/img-fondo-bluesnow.webp");
+  background-attachment: fixed;
+  display: flex;
+  margin: 30px;
+}
+.porque-terapia div {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.porque-terapia div h2 {
+  font-size: 46px;
+  font-weight: normal;
+  color: rgb(8, 158, 218);
+  margin: 15px;
+  text-align: center;
+}
+.porque-terapia div p {
+  background-color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 15px;
+}
+.porque-terapia div p::first-letter {
+  font-size: 50px;
+}
+.porque-terapia img {
+  width: 634px;
+  height: 500px;
+  margin-top: 7%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.esperar-terapia {
+  background-image: url("../img/img-fondo-bluesnow.webp");
+  background-attachment: fixed;
+  display: flex;
+  margin: 30px;
+  flex-direction: row-reverse;
+}
+.esperar-terapia div {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.esperar-terapia div h2 {
+  font-size: 46px;
+  font-weight: normal;
+  color: rgb(8, 158, 218);
+  margin: 15px;
+  text-align: center;
+}
+.esperar-terapia div p {
+  background-color: rgb(255, 255, 255);
+  font-weight: lighter;
+  font-size: 20px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 15px;
+}
+.esperar-terapia div p::first-letter {
+  font-size: 50px;
+}
+.esperar-terapia img {
+  width: 634px;
+  height: 500px;
+  margin-top: 9%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.grid-palabras {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  margin-bottom: 2%;
+}
+.grid-palabras div img {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  justify-self: center;
+}
+
+.servicios {
+  background-image: url("../img/img-fondo-bluesnow.webp");
+  background-attachment: fixed;
+  padding: 20px;
+  padding-bottom: 7%;
+  padding-top: 3%;
+}
+.servicios h2 {
+  text-align: center;
+}
+.servicios .servicios-psico {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.servicios .servicios-psico div {
+  border: 1px solid gray;
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.servicios .servicios-psico div h3 {
+  color: rgb(8, 158, 218);
+  font: 16px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.servicios .servicios-psico div img {
+  width: 340px;
+  height: auto;
+  padding-bottom: 20px;
+  border-radius: 15px;
+}
+
+.foto {
+  height: 500px;
+  background-image: url("../img/img-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.grid-pie {
+  background-image: url("../img/img-fondo.webp");
+  padding: 20px;
+  display: grid;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 80px;
+}
+.grid-pie .grid1 {
+  align-self: start;
+}
+.grid-pie .grid1 img {
+  width: 170px;
+  height: 170px;
+}
+.grid-pie .grid2 {
+  justify-self: center;
+}
+.grid-pie .grid2 h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+.grid-pie .grid2 div img {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  left: 7cm;
+}
+.grid-pie .grid2 div p {
+  font-weight: 500;
+  margin: 20px 7px 10px 7px;
+}
+.grid-pie .grid3 nav ul li {
+  list-style: none;
+  margin: 5px 7px 10px 7px;
+}
+.grid-pie .grid3 nav ul li a {
+  color: black;
+  letter-spacing: 0, 5cm;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  justify-self: center;
+  text-decoration: none;
+}
+.grid-pie .grid3 nav ul li a:hover {
+  color: skyblue;
+}
+.grid-pie .grid4 {
+  justify-self: right;
+}
+.grid-pie .whatsapp {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.grid-pie .whatsapp a img {
+  width: 70px;
+  height: 70px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
