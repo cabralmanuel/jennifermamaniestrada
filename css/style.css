@@ -25,7 +25,7 @@ header{
 img{
     width: 170px;
     height: 170px;
-} 
+}
 header nav ul{
     list-style: none;
     display: flex;
@@ -82,7 +82,7 @@ p{
     font-family: impact, sans-serif;
     font-style: italic;
     font-weight: normal;
-    margin-top: 8%;
+    margin-top: 6%;
     border-radius: 50px;
     padding: 8px;
 }
@@ -93,8 +93,8 @@ p{
     font-family: "Bitter", serif;
     font-weight:350;
     font-size: 80px;
-    margin-bottom: 0px;
     border-radius: 50px;
+    padding: 1%;
 }
 .hero{
     width: 100%;
@@ -161,7 +161,7 @@ p{
     margin: 15px;
 }
 .terapia div img{
-    width: 350px;
+    width: 315px;
     height: 450px;
     margin-left: 20%;
     border-radius: 20px;
@@ -248,20 +248,20 @@ p{
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 100%;
-    margin: 50px;
+    margin-bottom: 2%;
 }
-/* .grid-foto{
+.grid-palabras div img{
+    width: 100%;
+    height: 100%;
     padding: 5px;
     justify-self: center;
-} */
-/* .grid-palabras div img{
-    padding: 5px;
-    justify-self: center;
-} */
+}
 .servicios{
     background-image: url("../img/img-fondo-bluesnow.webp");
     background-attachment: fixed;
     padding: 20px;
+    padding-bottom: 7%;
+    padding-top: 3%;
 }
 .servicios h2{
     text-align: center;
@@ -290,6 +290,7 @@ p{
 }
 .servicios div img{
     width: 340px;
+    height: auto;
     padding-bottom: 20px;
     border-radius: 15px;
 }
@@ -375,10 +376,6 @@ nav ul li{
 .grid4{
     justify-self: right;
 }
-footer img{
-    width: 150px;
-    height: 150px;
-}
 footer a img{
     width: 70px;
     height: 70px;
@@ -387,6 +384,66 @@ footer a img{
     position: fixed;
     bottom: 50px;
     right: 50px;
+}
+
+/*! PERFIL */
+
+.perfil-titulo{
+    font-size: 46px;
+    font-weight: normal;
+    color: rgb(8, 158, 218);
+    margin: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    border-radius: 25px;
+    background-image: url(../img/img-fondo-bluesnow.webp);
+}
+.perfil-jenni-foto img{
+    width: 315px;
+    height: 500px;
+}
+
+/*! TURNOS */
+
+.turnos-titulo{
+    font-size: 46px;
+    font-weight: normal;
+    color: rgb(8, 158, 218);
+    margin: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    border-radius: 25px;
+    background-image: url(../img/img-fondo-bluesnow.webp);
+}
+
+/*! PREGUNTAS FRECUENTES */
+
+.preguntas-titulo{
+    font-size: 46px;
+    font-weight: normal;
+    color: rgb(8, 158, 218);
+    margin: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    border-radius: 25px;
+    background-image: url(../img/img-fondo-bluesnow.webp);
+}
+
+/*! CONTACTO */
+
+.contacto-titulo{
+    font-size: 46px;
+    font-weight: normal;
+    color: rgb(8, 158, 218);
+    margin: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    border-radius: 25px;
+    background-image: url(../img/img-fondo-bluesnow.webp);
 }
 
 /*! MEDIA QUERIES */
@@ -400,7 +457,7 @@ footer a img{
     .barra ul{
         flex-direction: column;
     }
-}    
+}
 @media screen and (max-width:806px){
     .hero{
         flex-direction: column;
