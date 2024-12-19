@@ -1,0 +1,224 @@
+@media screen and (max-width:806px){
+    header{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:806px){
+    header nav ul{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:806px){
+    .hero{
+        flex-direction: column;
+        width: 100%;
+    }
+    .hero div p{
+        margin-right: 5%;
+        font-size: 13px;
+    }
+    .hero div img{
+        width: 500px;
+    }
+    .hero div h1{
+        font-size: 40px;
+        margin-right: 9%;
+    }
+    .hero div a{
+        font-size: 10px;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width:806px){
+    main .terapia{
+        flex-direction: column;
+    }
+    main .terapia div h2{
+        font-size: 25px;
+        margin-left: 40%;
+        width: 150%;
+    }
+    main .terapia div p{
+        font-size: 16px;
+        width: 150%;
+        margin-left: 35%;
+    }
+    main .terapia div img{
+        width: 150px;
+        height: 250px;
+        margin-left: 48%;
+    }
+}
+@media screen and (max-width:806px){
+    main .porque-terapia{
+        flex-direction: column;
+        align-items: center;
+    }
+    main .porque-terapia div{
+        margin-right: 35%;
+    }
+    main .porque-terapia div h2{
+        font-size: 27px;
+        width: 200%;
+        margin-left: -10%;
+    }
+    main .porque-terapia div p{
+        font-size: 16px;
+        width: 185%;
+    }
+    main .porque-terapia img{
+        width: 300px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:806px){
+    main .esperar-terapia{
+        flex-direction: column;
+        align-items: center;
+    }
+    main .esperar-terapia div{
+        margin-right: 30%;
+    }
+    main .esperar-terapia div h2{
+        font-size: 27px;
+        width: 150%;
+    }
+    main .esperar-terapia div p{
+        font-size: 16px;
+        width: 175%;
+    }
+    main .esperar-terapia img{
+        width: 300px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:806px){
+    main .grid-palabras .grid-foto{
+        display: none;
+    }
+}
+@media screen and (max-width:806px){
+    main .servicios .servicios-psico div img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:806px){
+    main .foto{
+        display: none;
+    }
+}
+@media screen and (max-width:895px){
+    .grid-pie{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-self: center;
+        row-gap: 0px;
+    }
+    .grid-pie a img{
+        width: 50px;
+        height: 50px;
+    }
+    .grid-pie .grid1 img{
+        margin-left: 25%;
+        margin-top: 27%;
+    }
+    .grid-pie .grid2 h2{
+        margin-left: 25%;
+        margin-bottom: 15%;
+    }
+    .grid-pie .grid2 div img{
+        margin-left: -65%;
+    }
+    .grid-pie .grid2 div p{
+        margin-left: 12%;
+    }
+    .grid-pie .grid3 nav ul{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:404px){
+    .grid-pie .grid4 iframe{
+        width: 90%;
+    }
+}
+
+/* PERFIL */
+
+@media screen and (max-width:1200px){
+    main .perfil-titulo{
+        font-size: 35px;
+        margin-left: 20%;
+    }
+    main .perfil-jenni{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    main .perfil-jenni div{
+        margin-left: -2%;
+        margin-bottom: 10%;
+    }
+    main .perfil-jenni div h2{
+        font-size: 27px;
+        text-align: center;
+        margin-left: 50%;
+    }
+    main .perfil-jenni div p{
+        font-size: 16px;
+        width: 215%;
+    }
+    main .perfil-jenni-foto{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 30%;
+    }
+    main .perfil-jenni-foto img{
+        max-width: 150%;
+        height: auto;
+        margin-right: 15%;
+    }
+    .grid-pie1{
+        grid-template-rows: 1fr;
+    }
+    .grid-pie1 div img{
+        margin-left: 40%;
+    }
+}
+
+/* TURNOS */
+
+@media screen and (max-width:500px){
+    main .turnos-titulo{
+        font-size: 35px;
+    }
+    .grid-pie2{
+        grid-template-rows: 1fr;
+    }
+    .logo-pie3{
+        margin-left: 27%;
+    }
+}
+
+/* PREGUNTAS FRECUENTES */
+
+@media screen and (max-width:380px){
+    main .preguntas-titulo{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:386px){
+    body .preguntas-frecuentes-barra{
+        position: static;
+    }
+    main .accordion-item h2{
+        margin-left: 6%;
+    }
+    .grid-pie3{
+        grid-template-rows: 1fr;
+    }
+    .logo-pie1{
+        margin-left: 27%;
+    }
+}

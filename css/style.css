@@ -470,7 +470,7 @@ footer a img{
     .hero img{
         width: 500px;
     }
-    .hero h2{
+    .hero h1{
         font-size: 40px;
         margin-right: 9%;
     }
@@ -506,7 +506,7 @@ footer a img{
     .porque-terapia img{
         width: 300px;
     }
-    .porque-terapia div h3{
+    .porque-terapia div h2{
         font-size: 27px;
         width: 200%;
         margin-left: -10%;
@@ -527,7 +527,7 @@ footer a img{
     .esperar-terapia img{
         width: 300px;
     }
-    .esperar-terapia div h3{
+    .esperar-terapia div h2{
         font-size: 27px;
         width: 150%;
     }
@@ -627,7 +627,7 @@ footer a img{
     }
 }
 @media screen and (max-width:500px){
-    .turnos h2{
+    .turnos-titulo{
         font-size: 23px;
         margin-left: 3%;
         text-align: center;
@@ -640,7 +640,7 @@ footer a img{
     }
 }
 @media screen and (max-width:380px){
-    .preguntas-frecuentes h2{
+    .preguntas-titulo{
         font-size: 23px;
         margin-left: 22%;
     }
