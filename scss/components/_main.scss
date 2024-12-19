@@ -180,3 +180,158 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+/* PERFIL */
+
+main{
+    .perfil-titulo{
+        font-size: 46px;
+        font-weight: normal;
+        color: rgb(8, 158, 218);
+        margin: 15px;
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: center;
+        border-radius: 25px;
+        background-image: url(../img/img-fondo-bluesnow.webp);
+    }
+    .perfil-jenni{
+        background-image: url("../img/img-fondo-bluesnow.webp");
+        background-attachment: fixed;
+        margin: 30px;
+        div{
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            h2{
+            }
+            p{
+                background-color: white;
+                font-weight: lighter;
+                font-size: 20px;
+                word-spacing: 2px;
+                margin-bottom: 15px;
+                text-align: justify;
+                padding: 15px;
+                margin-right: 20%;
+                margin-left: 6%;
+                width: 130%;
+                border-radius: 20px;
+                &::first-letter{
+                    font-size: 50px;
+                }
+            }
+            img{
+                width: 350px;
+                margin-left: 145%;
+                margin-top: -100%;
+                border-radius: 20px;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+/* TURNOS */
+
+main{
+    .turnos-titulo{
+        font-size: 46px;
+        font-weight: normal;
+        color: rgb(8, 158, 218);
+        margin: 15px;
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: center;
+        border-radius: 25px;
+        background-image: url(../img/img-fondo-bluesnow.webp);
+    }
+    .turnos{
+        background-image: url("../img/img-fondo-bluesnow.webp");
+        background-attachment: fixed;
+        display: flex;
+        margin: 30px;
+        flex-direction: row;
+        div{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            form{
+                align-content: center;
+                div{
+                    .btn-primary{
+                        background-color: skyblue;
+                        border: none;
+                        color: white;
+                        font-weight: 700;
+                        margin-left: 15%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* PREGUNTAS FRECUENTES */
+
+main{
+    .preguntas-titulo{
+        font-size: 46px;
+        font-weight: normal;
+        color: rgb(8, 158, 218);
+        margin: 15px;
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: center;
+        border-radius: 25px;
+        background-image: url(../img/img-fondo-bluesnow.webp);
+    }
+    .preguntas-frecuentes{
+        background-image: url("../img/img-fondo-bluesnow.webp");
+        background-attachment: fixed;
+        display: flex;
+        margin: 30px;
+        div{
+            width: 100%;
+            padding: 15px;
+        }
+    }
+}
+
+/* CONTACTO */
+
+main{
+    .contacto-titulo{
+        font-size: 46px;
+        font-weight: normal;
+        color: rgb(8, 158, 218);
+        margin: 15px;
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: center;
+        border-radius: 25px;
+        background-image: url(../img/img-fondo-bluesnow.webp);
+    }
+    .contacto{
+        background-image: url("../img/img-fondo-bluesnow.webp");
+        background-attachment: fixed;
+        display: flex;
+        margin: 30px;
+        flex-direction: row;
+        div{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            .btn-primary{
+                background-color: skyblue;
+                border: none;
+                color: white;
+                font-weight: 700;
+                margin-left: 15%;
+            }
+        }
+    }
+}

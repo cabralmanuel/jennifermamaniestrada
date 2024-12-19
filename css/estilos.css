@@ -334,6 +334,145 @@ header nav ul li a:hover {
   background-attachment: fixed;
 }
 
+/* PERFIL */
+main .perfil-titulo {
+  font-size: 46px;
+  font-weight: normal;
+  color: rgb(8, 158, 218);
+  margin: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  border-radius: 25px;
+  background-image: url(../img/img-fondo-bluesnow.webp);
+}
+main .perfil-jenni {
+  background-image: url("../img/img-fondo-bluesnow.webp");
+  background-attachment: fixed;
+  margin: 30px;
+}
+main .perfil-jenni div {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+main .perfil-jenni div p {
+  background-color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  word-spacing: 2px;
+  margin-bottom: 15px;
+  text-align: justify;
+  padding: 15px;
+  margin-right: 20%;
+  margin-left: 6%;
+  width: 130%;
+  border-radius: 20px;
+}
+main .perfil-jenni div p::first-letter {
+  font-size: 50px;
+}
+main .perfil-jenni div img {
+  width: 350px;
+  margin-left: 145%;
+  margin-top: -100%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* TURNOS */
+main .turnos-titulo {
+  font-size: 46px;
+  font-weight: normal;
+  color: rgb(8, 158, 218);
+  margin: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  border-radius: 25px;
+  background-image: url(../img/img-fondo-bluesnow.webp);
+}
+main .turnos {
+  background-image: url("../img/img-fondo-bluesnow.webp");
+  background-attachment: fixed;
+  display: flex;
+  margin: 30px;
+  flex-direction: row;
+}
+main .turnos div {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+main .turnos div form {
+  align-content: center;
+}
+main .turnos div form div .btn-primary {
+  background-color: skyblue;
+  border: none;
+  color: white;
+  font-weight: 700;
+  margin-left: 15%;
+}
+
+/* PREGUNTAS FRECUENTES */
+main .preguntas-titulo {
+  font-size: 46px;
+  font-weight: normal;
+  color: rgb(8, 158, 218);
+  margin: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  border-radius: 25px;
+  background-image: url(../img/img-fondo-bluesnow.webp);
+}
+main .preguntas-frecuentes {
+  background-image: url("../img/img-fondo-bluesnow.webp");
+  background-attachment: fixed;
+  display: flex;
+  margin: 30px;
+}
+main .preguntas-frecuentes div {
+  width: 100%;
+  padding: 15px;
+}
+
+/* CONTACTO */
+main .contacto-titulo {
+  font-size: 46px;
+  font-weight: normal;
+  color: rgb(8, 158, 218);
+  margin: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  border-radius: 25px;
+  background-image: url(../img/img-fondo-bluesnow.webp);
+}
+main .contacto {
+  background-image: url("../img/img-fondo-bluesnow.webp");
+  background-attachment: fixed;
+  display: flex;
+  margin: 30px;
+  flex-direction: row;
+}
+main .contacto div {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+main .contacto div .btn-primary {
+  background-color: skyblue;
+  border: none;
+  color: white;
+  font-weight: 700;
+  margin-left: 15%;
+}
+
 .grid-pie {
   background-image: url("../img/img-fondo.webp");
   padding: 20px;
@@ -400,6 +539,54 @@ header nav ul li a:hover {
 .grid-pie .whatsapp a img {
   width: 70px;
   height: 70px;
+}
+
+/* PERFIL */
+.grid-pie1 div img {
+  width: 170px;
+  height: 170px;
+  margin-left: 1%;
+}
+.grid-pie1 a img {
+  width: 70px;
+  height: 70px;
+}
+.grid-pie1 .whatsapp {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+/* TURNOS */
+.grid-pie2 div img {
+  width: 170px;
+  height: 170px;
+  margin-left: 1%;
+}
+.grid-pie2 a img {
+  width: 70px;
+  height: 70px;
+}
+.grid-pie2 .whatsapp {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+/* PREGUNTAS FRECUENTES */
+.grid-pie3 div img {
+  width: 170px;
+  height: 170px;
+  margin-left: 1%;
+}
+.grid-pie3 a img {
+  width: 70px;
+  height: 70px;
+}
+.grid-pie3 .whatsapp {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
