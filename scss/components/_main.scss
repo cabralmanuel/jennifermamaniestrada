@@ -10,7 +10,7 @@
         align-items: center;
         padding: 15px;
         h2{
-            font-size: nth ($font-size,5);
+            font-size: 46px;
             font-weight: normal;
             color: $color-4;
             margin: 15px;
@@ -18,14 +18,14 @@
         p{
             background-color: $color-3;
             font-weight: lighter;
-            font-size: nth ($font-size,2);
+            font-size: 20px;
             word-spacing: 2px;
             margin-bottom: 20px;
             text-align: justify;
             padding: 15px;
             margin-right: 20%;
             &::first-letter{
-                font-size: nth ($font-size,6);
+                font-size: 50px;
             }
         }
     }
@@ -54,7 +54,7 @@
         align-items: center;
         padding: 15px;
         h2{
-            font-size: nth ($font-size,5);
+            font-size: 46px;
             font-weight: normal;
             color: $color-4;
             margin: 15px;
@@ -63,13 +63,13 @@
         p{
             background-color: $color-3;
             font-weight: lighter;
-            font-size: nth ($font-size,2);
+            font-size: 20px;
             word-spacing: 2px;
             margin-bottom: 20px;
             text-align: justify;
             padding: 15px;
             &::first-letter{
-                font-size: nth ($font-size,6);
+                font-size: 50px;
             }
         }
     }
@@ -93,7 +93,7 @@
         align-items: center;
         padding: 15px;
         h2{
-            font-size: nth ($font-size,5);
+            font-size: 46px;
             font-weight: normal;
             color: $color-4;
             margin: 15px;
@@ -102,13 +102,13 @@
         p{
             background-color: $color-5;
             font-weight: lighter;
-            font-size: nth ($font-size,2);
+            font-size: 20px;
             word-spacing: 2px;
             margin-bottom: 20px;
             text-align: justify;
             padding: 15px;
             &::first-letter{
-                font-size: nth ($font-size,6);
+                font-size: 50px;
             }
         }
     }
@@ -159,7 +159,7 @@
         -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
             h3{
                 color: $color-4;
-                font-size: nth ($font-size,7);
+                font-size: 16px;
                 padding-bottom: 20px;
                 font-weight: 600;
             }
@@ -185,7 +185,7 @@
 
 main{
     .perfil-titulo{
-        font-size: nth ($font-size,5);
+        font-size: 46px;
         font-weight: normal;
         color: $color-4;
         margin: 15px;
@@ -209,7 +209,7 @@ main{
             p{
                 background-color: $color-3;
                 font-weight: lighter;
-                font-size: nth ($font-size,2);
+                font-size: 20px;
                 word-spacing: 2px;
                 margin-bottom: 15px;
                 text-align: justify;
@@ -219,7 +219,7 @@ main{
                 width: 130%;
                 border-radius: 20px;
                 &::first-letter{
-                    font-size: nth ($font-size,6);
+                    font-size: 50px;
                 }
             }
             img{
@@ -237,7 +237,7 @@ main{
 
 main{
     .turnos-titulo{
-        font-size: nth ($font-size,5);
+        font-size: 46px;
         font-weight: normal;
         color: $color-4;
         margin: 15px;
@@ -278,7 +278,7 @@ main{
 
 main{
     .preguntas-titulo{
-        font-size: nth ($font-size,5);
+        font-size: 46px;
         font-weight: normal;
         color: $color-4;
         margin: 15px;
@@ -304,7 +304,7 @@ main{
 
 main{
     .contacto-titulo{
-        font-size: nth ($font-size,5);
+        font-size: 46px;
         font-weight: normal;
         color: $color-4;
         margin: 15px;
