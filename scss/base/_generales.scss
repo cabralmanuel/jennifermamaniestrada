@@ -9,27 +9,27 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
+    background-color: $color-3;
     background-image: url("../img/img-fondo.webp");
 }
 body{
     font-family: 'Raleway';
 }
 h2{
-    color: rgb(8, 158, 218);
-    font-size: 46px;
+    color: $color-4;
+    font-size: nth ($font-size,5);
     font-weight: normal;
-    border: black 10px;
+    border: $color-1 10px;
     margin: 20px;
     padding: 20px;
     background-clip: content-box;
 }
 p{
-    color: black;
+    color: $color-1;
 }
 .boton{
-    background-color: skyblue;
-    color: white;
+    background-color: $color-2;
+    color: $color-3;
     text-decoration: none;
     font-weight: 600;
     border: 2px;
@@ -38,7 +38,7 @@ p{
     transition-property: all;
     transition-duration: 1s;
     &:hover{
-        background-color: white;
-        color: skyblue;
+        background-color: $color-3;
+        color: $color-2;
     }
 }

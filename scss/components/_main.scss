@@ -10,22 +10,22 @@
         align-items: center;
         padding: 15px;
         h2{
-            font-size: 46px;
+            font-size: nth ($font-size,5);
             font-weight: normal;
-            color: rgb(8, 158, 218);
+            color: $color-4;
             margin: 15px;
         }
         p{
-            background-color: white;
+            background-color: $color-3;
             font-weight: lighter;
-            font-size: 20px;
+            font-size: nth ($font-size,2);
             word-spacing: 2px;
             margin-bottom: 20px;
             text-align: justify;
             padding: 15px;
             margin-right: 20%;
             &::first-letter{
-                font-size: 50px;
+                font-size: nth ($font-size,6);
             }
         }
     }
@@ -54,22 +54,22 @@
         align-items: center;
         padding: 15px;
         h2{
-            font-size: 46px;
+            font-size: nth ($font-size,5);
             font-weight: normal;
-            color: rgb(8, 158, 218);
+            color: $color-4;
             margin: 15px;
             text-align: center;
         }
         p{
-            background-color: white;
+            background-color: $color-3;
             font-weight: lighter;
-            font-size: 20px;
+            font-size: nth ($font-size,2);
             word-spacing: 2px;
             margin-bottom: 20px;
             text-align: justify;
             padding: 15px;
             &::first-letter{
-                font-size: 50px;
+                font-size: nth ($font-size,6);
             }
         }
     }
@@ -93,22 +93,22 @@
         align-items: center;
         padding: 15px;
         h2{
-            font-size: 46px;
+            font-size: nth ($font-size,5);
             font-weight: normal;
-            color: rgb(8, 158, 218);
+            color: $color-4;
             margin: 15px;
             text-align: center;
         }
         p{
-            background-color: rgb(255, 255, 255);
+            background-color: $color-5;
             font-weight: lighter;
-            font-size: 20px;
+            font-size: nth ($font-size,2);
             word-spacing: 2px;
             margin-bottom: 20px;
             text-align: justify;
             padding: 15px;
             &::first-letter{
-                font-size: 50px;
+                font-size: nth ($font-size,6);
             }
         }
     }
@@ -149,7 +149,7 @@
         align-items: center;
         flex-wrap: wrap;
         div{
-            border: 1px solid gray;
+            border: 1px solid $color-6;
             width: 350px;
             height: 400px;
             text-align: center;
@@ -158,8 +158,8 @@
         -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
         -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
             h3{
-                color: rgb(8, 158, 218);
-                font: 16px;
+                color: $color-4;
+                font-size: nth ($font-size,7);
                 padding-bottom: 20px;
                 font-weight: 600;
             }
@@ -185,9 +185,9 @@
 
 main{
     .perfil-titulo{
-        font-size: 46px;
+        font-size: nth ($font-size,5);
         font-weight: normal;
-        color: rgb(8, 158, 218);
+        color: $color-4;
         margin: 15px;
         margin-left: 2%;
         margin-right: 2%;
@@ -207,9 +207,9 @@ main{
             h2{
             }
             p{
-                background-color: white;
+                background-color: $color-3;
                 font-weight: lighter;
-                font-size: 20px;
+                font-size: nth ($font-size,2);
                 word-spacing: 2px;
                 margin-bottom: 15px;
                 text-align: justify;
@@ -219,7 +219,7 @@ main{
                 width: 130%;
                 border-radius: 20px;
                 &::first-letter{
-                    font-size: 50px;
+                    font-size: nth ($font-size,6);
                 }
             }
             img{
@@ -237,9 +237,9 @@ main{
 
 main{
     .turnos-titulo{
-        font-size: 46px;
+        font-size: nth ($font-size,5);
         font-weight: normal;
-        color: rgb(8, 158, 218);
+        color: $color-4;
         margin: 15px;
         margin-left: 2%;
         margin-right: 2%;
@@ -262,9 +262,9 @@ main{
                 align-content: center;
                 div{
                     .btn-primary{
-                        background-color: skyblue;
+                        background-color: $color-2;
                         border: none;
-                        color: white;
+                        color: $color-3;
                         font-weight: 700;
                         margin-left: 15%;
                     }
@@ -278,9 +278,9 @@ main{
 
 main{
     .preguntas-titulo{
-        font-size: 46px;
+        font-size: nth ($font-size,5);
         font-weight: normal;
-        color: rgb(8, 158, 218);
+        color: $color-4;
         margin: 15px;
         margin-left: 2%;
         margin-right: 2%;
@@ -304,9 +304,9 @@ main{
 
 main{
     .contacto-titulo{
-        font-size: 46px;
+        font-size: nth ($font-size,5);
         font-weight: normal;
-        color: rgb(8, 158, 218);
+        color: $color-4;
         margin: 15px;
         margin-left: 2%;
         margin-right: 2%;
@@ -326,9 +326,9 @@ main{
             align-items: center;
             padding: 15px;
             .btn-primary{
-                background-color: skyblue;
+                background-color: $color-2;
                 border: none;
-                color: white;
+                color: $color-3;
                 font-weight: 700;
                 margin-left: 15%;
             }
