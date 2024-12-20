@@ -619,24 +619,12 @@ footer a img{
         height: auto;
         margin-right: 15%;
     }
-    .grid-pie1{
-        grid-template-rows: 1fr;
-    }
-    .logo-pie2{
-        margin-left: 40%;
-    }
 }
 @media screen and (max-width:500px){
     .turnos-titulo{
         font-size: 23px;
         margin-left: 3%;
         text-align: center;
-    }
-    .grid-pie2{
-        grid-template-rows: 1fr;
-    }
-    .logo-pie3{
-        margin-left: 30%;
     }
 }
 @media screen and (max-width:380px){
@@ -653,14 +641,6 @@ footer a img{
 @media screen and (max-width:386px){
     .accordion-item h2{
         margin-left: 6%;
-    }
-}
-@media screen and (max-width:386px){
-    .logo-pie1{
-        margin-left: 30%;
-    }
-    .grid-pie3{
-        grid-template-rows: 1fr;
     }
 }
 
