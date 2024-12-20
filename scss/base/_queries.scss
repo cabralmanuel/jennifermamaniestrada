@@ -179,12 +179,6 @@
         height: auto;
         margin-right: 15%;
     }
-    .grid-pie1{
-        grid-template-rows: 1fr;
-    }
-    .grid-pie1 div img{
-        margin-left: 40%;
-    }
 }
 
 /* TURNOS */
@@ -192,12 +186,6 @@
 @media screen and (max-width:500px){
     main .turnos-titulo{
         font-size: 35px;
-    }
-    .grid-pie2{
-        grid-template-rows: 1fr;
-    }
-    .logo-pie3{
-        margin-left: 27%;
     }
 }
 
@@ -214,11 +202,5 @@
     }
     main .accordion-item h2{
         margin-left: 6%;
-    }
-    .grid-pie3{
-        grid-template-rows: 1fr;
-    }
-    .logo-pie1{
-        margin-left: 27%;
     }
 }
