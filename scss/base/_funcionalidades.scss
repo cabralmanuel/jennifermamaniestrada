@@ -9,7 +9,7 @@ $color-7: rgba(0, 0, 0, 0.171);
 
 /*LISTAS*/
 
-$font-size: 13px, 20px, 27px, 80px, 46px, 50px, 16px, 30px;
+$font-size: 13px, 20px, 27px, 80px, 46px, 50px, 30px, 28px;
 
 /* EXTENDS */
 
@@ -25,4 +25,12 @@ $font-size: 13px, 20px, 27px, 80px, 46px, 50px, 16px, 30px;
     border: 2px;
     padding: 12px;
     border-radius: 20px;
+}
+
+/* MIXIN */
+
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
 }

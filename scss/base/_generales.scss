@@ -17,7 +17,7 @@ body{
 }
 h2{
     color: $color-4;
-    font-size: 46px;
+    font-size: nth($font-size,5);
     font-weight: normal;
     border: $color-1 10px;
     margin: 20px;
@@ -30,11 +30,7 @@ p{
 .boton{
     background-color: $color-2;
     color: $color-3;
-    text-decoration: none;
-    font-weight: 600;
-    border: 2px;
-    padding: 12px;
-    border-radius: 20px;
+    @extend %boton;
     transition-property: all;
     transition-duration: 1s;
     &:hover{

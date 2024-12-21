@@ -6,6 +6,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitter:ital,wght@0,100..900;1,100..900&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+main .perfil-jenni div, .esperar-terapia div, .porque-terapia div, .terapia div {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.boton {
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+/* MIXIN */
 * {
   margin: 0;
   padding: 0;
@@ -38,11 +54,6 @@ p {
 .boton {
   background-color: skyblue;
   color: white;
-  text-decoration: none;
-  font-weight: 600;
-  border: 2px;
-  padding: 12px;
-  border-radius: 20px;
   transition-property: all;
   transition-duration: 1s;
 }
@@ -155,12 +166,6 @@ header nav ul li a:hover {
   margin: 30px;
   flex-direction: row-reverse;
 }
-.terapia div {
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-}
 .terapia div h2 {
   font-size: 46px;
   font-weight: normal;
@@ -180,12 +185,6 @@ header nav ul li a:hover {
 .terapia div p::first-letter {
   font-size: 50px;
 }
-.terapia div {
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-}
 .terapia div img {
   width: 315px;
   height: 450px;
@@ -199,12 +198,6 @@ header nav ul li a:hover {
   background-attachment: fixed;
   display: flex;
   margin: 30px;
-}
-.porque-terapia div {
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
 }
 .porque-terapia div h2 {
   font-size: 46px;
@@ -239,12 +232,6 @@ header nav ul li a:hover {
   display: flex;
   margin: 30px;
   flex-direction: row-reverse;
-}
-.esperar-terapia div {
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
 }
 .esperar-terapia div h2 {
   font-size: 46px;
@@ -314,7 +301,7 @@ header nav ul li a:hover {
 }
 .servicios .servicios-psico div h3 {
   color: rgb(8, 158, 218);
-  font-size: 16px;
+  font-size: 28px;
   padding-bottom: 20px;
   font-weight: 600;
 }
@@ -350,12 +337,6 @@ main .perfil-jenni {
   background-image: url("../img/img-fondo-bluesnow.webp");
   background-attachment: fixed;
   margin: 30px;
-}
-main .perfil-jenni div {
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
 }
 main .perfil-jenni div p {
   background-color: white;
