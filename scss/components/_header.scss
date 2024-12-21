@@ -20,6 +20,7 @@ header{
                 margin: 5px 7px 10px 7px;
                 a{
                     text-decoration: none;
+                    transition: 0.5s;
                     &:hover{
                         color: $color-2;
                     }
