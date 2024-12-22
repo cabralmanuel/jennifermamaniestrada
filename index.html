@@ -10,13 +10,14 @@
 
     <!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Jennifer Mamani Estrada</title>
 </head>
 
 <body>
     <header>
-        <img src="./img/img-logo.png" alt="logo empresarial">
+        <img src="./img/img-logo.png" alt="logo empresarial" data-aos="zoom-in" data-aos-duration="1000">
         <nav class="barra">
             <ul>
                 <li><a href="./index.html">INICIO</a></li>
@@ -27,7 +28,7 @@
             </ul>
         </nav>
     </header>
-    <section class="hero">
+    <section class="hero" data-aos="fade-up" data-aos-duration="1000">
         <div>
             <h1 class="animate__animated animate__fadeInDown">Lic. Jennifer Mamani Estrada</h1>
             <!--FOTO-->
@@ -43,7 +44,7 @@
                     con concurrencia finalizada en Psicología Clínica hospitalaria. ¡Bienvenidos!</p>
             </div>
             <div class="grid-perfil">
-                <img src="./img/img-perfil-jenni.png" alt="psicologa jennifer mamani estrada">
+                <img src="./img/img-perfil-jenni.png" alt="psicologa jennifer mamani estrada" data-aos="fade-right" data-aos-duration="1000">
             </div>
         </section>
         <section class="porque-terapia">
@@ -58,7 +59,7 @@
                     comunidades marginadas e inmigración. Trabajo desde una perspectiva de género, de derechos y
                     atención primaria.</p>
             </div>
-            <img src="./img/img-terapia.png" alt="mujer estresada, saturada, irritada">
+            <img src="./img/img-terapia.png" alt="mujer estresada, saturada, irritada" data-aos="fade-left" data-aos-duration="1000">
         </section>
         <section class="esperar-terapia">
             <div>
@@ -71,12 +72,12 @@
                     de tratamiento que se adapte a tus necesidades. Mi objetivo es fomentar el crecimiento personal,
                     fortalecer las relaciones y aumentar el bienestar general en un entorno confidencial y de apoyo.</p>
             </div>
-            <img src="img/img-que-esperar.jpg" alt="niño en sesion con su psicologa">
+            <img src="img/img-que-esperar.jpg" alt="niño en sesion con su psicologa" data-aos="fade-right" data-aos-duration="1000">
         </section>
         <section class="grid-palabras">
-            <div class="grid-foto"><img src="./img/img-2.jpg" alt="palabras sueltas sobre salud mental"></div>
+            <div class="grid-foto"><img src="./img/img-2.jpg" alt="palabras sueltas sobre salud mental" data-aos="fade-up"></div>
         </section>
-        <section class="servicios">
+        <section class="servicios" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="animate__animated animate__fadeIn">Servicios</h2>
             <div class="servicios-psico">
                 <div class="servicios-psico1">
@@ -96,13 +97,13 @@
                 </div>
             </div>
         </section>
-        <section class="foto">
+        <section class="foto" data-aos="fade-up" data-aos-duration="1000">
             <!--Foto-->
         </section>
     </main>
     <footer class="grid-pie">
         <div class="grid1">
-            <img src="./img/img-logo.png" alt="logo empresarial">
+            <img src="./img/img-logo.png" alt="logo empresarial" data-aos="zoom-in" data-aos-duration="1000">
         </div>
         <div class="grid2">
             <h2 class="animate__animated animate__fadeIn">Datos de Contacto</h2>
@@ -119,8 +120,7 @@
                 <p class="animate__animated animate__fadeIn">Dirección: Avenida Olazábal 5125 (CABA)</p>
             </div>
         </div>
-        <a class="whatsapp" href="https://wa.me/5491153246060" target="_blank"><img src="./img/img-whatsapp.png"
-                alt="logo whatsapp"></a>
+        <a class="whatsapp" href="https://wa.me/5491153246060" target="_blank"><img src="./img/img-whatsapp.png" alt="logo whatsapp"></a>
         <div class="grid3">
             <nav>
                 <ul>
@@ -142,6 +142,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

@@ -8,12 +8,13 @@
 
     <!-- <link rel="stylesheet" href="../css/style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Inicio</title>
 </head>
 <body>
     <header>
-        <img src="../img/img-logo.png" alt="logo empresarial">
+        <img src="../img/img-logo.png" alt="logo empresarial" data-aos="zoom-in" data-aos-duration="1000">
         <nav class="barra">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -24,7 +25,7 @@
             </ul>
         </nav>
     </header>
-    <section class="hero">
+    <section class="hero" data-aos="fade-up" data-aos-duration="1000">
         <div>
             <h1 class="animate__animated animate__fadeIn">Lic. Jennifer Mamani Estrada</h1>
             <!--FOTO-->
@@ -39,7 +40,7 @@
             <p class="animate__animated animate__fadeIn">Mi nombre es Jennifer Mamani Estrada. Soy Psicóloga graduada por la Universidad del Salvador (USAL) con concurrencia finalizada en Psicología Clínica hospitalaria. ¡Bienvenidos!</p>
         </div>
         <div class="grid-perfil">
-            <img src="../img/img-perfil-jenni.png" alt="psicologa jennifer mamani estrada">
+            <img src="../img/img-perfil-jenni.png" alt="psicologa jennifer mamani estrada" data-aos="fade-right" data-aos-duration="1000">
         </div>
     </section>
     <section class="porque-terapia">
@@ -47,20 +48,20 @@
             <h2 class="animate__animated animate__fadeIn">¿Por qué Terapia?</h2>
             <p class="animate__animated animate__fadeIn">A medida que transitamos la vida, experimentamos muchos cambios que a menudo son desafiantes y desconocidos. La forma en la que los abordamos incide en nuestra calidad de vida, cuando estos momentos se vuelven abrumadores, dificiles de abordarlos, afecta a nuestra modo y calidad de vida pudiendo muchas veces creer que no hay salidas posibles. Mi objetivo como terapeuta es ayudarte a encontrar herramientas que puedan aliviar tus angustias y encontrar salidas posibles a los problemas que creas que no tienen solución. Conozco y estoy en sintonía con diversas formas de angustias, comunidades marginadas e inmigración. Trabajo desde una perspectiva de género, de derechos y atención primaria.</p>
         </div>
-        <img src="../img/img-terapia.png" alt="mujer estresada, saturada, irritada">
+        <img src="../img/img-terapia.png" alt="mujer estresada, saturada, irritada" data-aos="fade-left" data-aos-duration="1000">
     </section>
     <section class="esperar-terapia">
         <div>
             <h2 class="animate__animated animate__fadeIn">¿Qué esperar de la Terapia?</h2>
             <p class="animate__animated animate__fadeIn">La terapia requiere una relación honesta y abierta entre el paciente y la psicóloga. Juntos, exploraremos lo que te abruma, te hace sentir inseguro/a o te angustia. Exploraremos los pensamientos, las emociones y los comportamientos en un espacio sin prejuicios. Te animaré a sentir curiosidad por ti mismo, a aceptar el cambio, a encontrar el equilibrio, a recuperar la autenticidad, a utilizar tus fortalezas para potenciar tu vida. Colaboraremos para diseñar un plan de tratamiento que se adapte a tus necesidades. Mi objetivo es fomentar el crecimiento personal, fortalecer las relaciones y aumentar el bienestar general en un entorno confidencial y de apoyo.</p>
         </div>
-        <img src="../img/img-que-esperar.jpg" alt="niño en sesion con su psicologa">
+        <img src="../img/img-que-esperar.jpg" alt="niño en sesion con su psicologa" data-aos="fade-right" data-aos-duration="1000">
     </section>
     <section class="grid-palabras">
-        <div class="grid-foto"><img src="../img/img-2.jpg" alt="palabras sueltas sobre salud mental"></div>
+        <div class="grid-foto"><img src="../img/img-2.jpg" alt="palabras sueltas sobre salud mental" data-aos="fade-up"></div>
     </section>
     <section class="servicios">
-        <h2 class="animate__animated animate__fadeIn">Servicios</h2>
+        <h2 class="animate__animated animate__fadeIn" data-aos="fade-up" data-aos-duration="1000">Servicios</h2>
         <div class="servicios-psico">
             <div class="servicios-psico1">
                 <h3 class="animate__animated animate__fadeIn">Apto Psicológico para Estudio</h3>
@@ -79,13 +80,13 @@
             </div>
         </div>
     </section>
-    <section class="foto">
+    <section class="foto" data-aos="fade-up" data-aos-duration="1000">
         <!--Foto-->
     </section>
     </main>
     <footer class="grid-pie">
         <div class="grid1">
-            <img src="../img/img-logo.png" alt="logo empresarial">
+            <img src="../img/img-logo.png" alt="logo empresarial" data-aos="zoom-in" data-aos-duration="1000">
         </div>
         <div class="grid2">
             <h2 class="animate__animated animate__fadeIn">Datos de Contacto</h2>
@@ -119,5 +120,9 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
