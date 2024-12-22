@@ -346,7 +346,6 @@ main .perfil-titulo {
 }
 main .perfil-jenni {
   background-image: url("../img/img-fondo-bluesnow.webp");
-  background-attachment: fixed;
   margin: 30px;
 }
 main .perfil-jenni div p {
